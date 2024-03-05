@@ -1,3 +1,7 @@
+
+![screenshot](./i3_tmux_qutebrowser_vim.png)
+
+
 # archigrad configuration files.
 
 These files have been succesfully tested on Ubuntu 22.04.2 LTS x86_64 machine.
@@ -151,18 +155,6 @@ A powerful shell with advanced scripting capabilities, often used as an alternat
 
 
 </details>
-
-
-
-![screenshot](./i3_tmux_qutebrowser_vim.png)
-
-
-
-
-
-
-
-
 
 
 
