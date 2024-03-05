@@ -66,8 +66,63 @@ f --> got to location
 ## Tmux
 A terminal multiplexer that enables multiple sessions in a single terminal window.
 
+<details>
+<summary> tmux config file </summary>
+location: ~/.config/tmux/tmux.config
+<br>
+change: mostly color and theme adjusmtnes, setup vim keybingings in naviugation, resizing
+<br>
+most used shortcuts:
+move from 1 pane to the other Ctrl-s hjkl 
+<br>
+resize panes Ctrl-s Ctrl hjkl
+<br>
+make new panes Ctrl-s % and Ctrl-s "
+<br>
+make pane fullscreen Ctrl-s z
+<br>
+<br>
+
+the following shortcuts functions are defined in ~/.zshrc but are affected by tmux
+
+<br>
+<br>
+tmux switch sessions -> Ctrl-s s jk
+<br>
+tmux new-session -s "my_session " -> tmux n "my_session"
+<br>
+tmux detach -> tmux d
+<br>
+tmux attach-session -t "my_session" -> tmux a "my_session"
+<br>
+tmux kill-session -t "my_sessioin" -> tmux k "my_session"
+<br>
+tmux list-session -> tmux ls
+<br>
+
+</details>
+
+
+
 ## Vim
 A highly configurable text editor known for its efficiency and extensive plugin ecosystem.
+
+
+
+<details>
+<summary> vim config file </summary>
+location: ~/.config/.vimrc
+<br>
+change: tabs, color
+<br>
+most used shortcuts:
+all shortcuts
+<br>
+
+</details>
+
+
+
 
 ## Zsh
 A powerful shell with advanced scripting capabilities, often used as an alternative to Bash
