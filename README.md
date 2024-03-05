@@ -9,7 +9,7 @@ These files have been succesfully tested on Ubuntu 22.04.2 LTS x86_64 machine.
 ## i3
 A tiling window manager for Linux.
 
-<details>
+<details open>
 <summary>i3 config file</summary>
 
 	**Location:** ~/.config/i3/config
@@ -29,7 +29,7 @@ A tiling window manager for Linux.
 ## Qutebrowser
 A keyboard-driven web browser based on Python and Qt.
 
-<details>
+<details open>
 <summary>qutebrowser config file</summary>
 
 	**Location:** ~/.config/qutebrowser/config.py
@@ -47,7 +47,7 @@ A keyboard-driven web browser based on Python and Qt.
 ## Tmux
 A terminal multiplexer that enables multiple sessions in a single terminal window.
 
-<details>
+<details open>
 <summary>tmux config file</summary>
 
 	**Location:** ~/.config/tmux/tmux.config
@@ -73,7 +73,7 @@ A terminal multiplexer that enables multiple sessions in a single terminal windo
 ## Vim
 A highly configurable text editor known for its efficiency and extensive plugin ecosystem.
 
-<details>
+<details open>
 <summary>vim config file</summary>
 
 	**Location:** ~/.config/.vimrc
@@ -88,7 +88,7 @@ A highly configurable text editor known for its efficiency and extensive plugin 
 ## Zsh
 A powerful shell with advanced scripting capabilities, often used as an alternative to Bash.
 
-<details>
+<details open>
 <summary>zsh config file</summary>
 
 	**Location:** ~/.zshrc
@@ -151,8 +151,6 @@ A powerful shell with advanced scripting capabilities, often used as an alternat
 
 	# PlatformIO integration
 	eval "$(_PIO_COMPLETE=zsh_source pio)"
-
-
 
 </details>
 
