@@ -151,3 +151,19 @@ A powerful shell with advanced scripting capabilities, often used as an alternat
 
 
 </details>
+
+
+
+![screenshot](./i3_tmux_qutebrowser_vim.png)
+
+
+
+
+
+
+
+
+
+
+
+
