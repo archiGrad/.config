@@ -156,5 +156,13 @@ A powerful shell with advanced scripting capabilities, often used as an alternat
 </details>
 
 
+## terminal settings
+
+```shell 
+
+xset r rate 300 60 --> where 300 is the time in ms before the cursor start diuplicating symbols. 
+60 is the speed of duplication  in ms
+
+```
 
 
