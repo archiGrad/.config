@@ -165,4 +165,13 @@ xset r rate 300 60 --> where 300 is the time in ms before the cursor start diupl
 
 ```
 
+make sure that if you tm -rf "somefile" that is is not deleted form system, but goes to trash bin in ~/.local/share/Trash/file
 
+```shell
+sudo apt-get install trash-cli
+nano ~/.bashrc
+alias rm='trash-put'
+source ~/.bashrc
+
+
+```
