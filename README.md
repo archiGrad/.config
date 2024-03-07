@@ -23,7 +23,7 @@ A tiling window manager for Linux.
 	- Alt + shift + hjkl : Move active pane
 	- Alt + shift + q : Kill active pane
 	- Alt + shift + [1,2,3,...] : Move active pane to different workspace
-
+	
 </details>
 
 ## Qutebrowser
@@ -67,7 +67,8 @@ A terminal multiplexer that enables multiple sessions in a single terminal windo
 	- Tmux attach-session -t "my_session": tmux a "my_session"
 	- Tmux kill-session -t "my_session": tmux k "my_session"
 	- Tmux list-session: tmux ls
-
+	
+	- ctrl-s shift L --> previous or next workspace (really usefull)
 </details>
 
 ## Vim
