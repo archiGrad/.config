@@ -97,6 +97,16 @@ A highly configurable text editor known for its efficiency and extensive plugin 
 	- "+y to copy to clipboard registery
 	- "+p paste from clipboard registery 
 
+	- select, delete somehting betwwen `""`, `{}`, `()` etc
+	- i"y -> yank whats "inner "" "
+	- i{y -> yank whats inner "{  }"
+
+	- ci" -> change/delete everyting innner quotes
+
+	- a"y -> yank outer ""
+
+
+
 </details>
 
 ## Zsh
