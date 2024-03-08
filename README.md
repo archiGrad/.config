@@ -90,6 +90,13 @@ A highly configurable text editor known for its efficiency and extensive plugin 
 
 	some goes for viw -> "4y -> "4p  --> yank something to refister 4, and then paste it.
 
+
+	- even better! we can copy to the clipboard registery by doing
+	- this means we can quickly interact with other programs without doing ctrl c and ctrl v
+	- make a selection -> v
+	- "+y to copy to clipboard registery
+	- "+p paste from clipboard registery 
+
 </details>
 
 ## Zsh
