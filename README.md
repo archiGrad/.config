@@ -84,6 +84,12 @@ A highly configurable text editor known for its efficiency and extensive plugin 
 	**Most Used Shortcuts:**
 	- All shortcuts
 
+	- viw -> select inner word
+	- "0y -> yank to 0'th registery
+	- "0p -> paste from 0'th registery
+
+	some goes for viw -> "4y -> "4p  --> yank something to refister 4, and then paste it.
+
 </details>
 
 ## Zsh
