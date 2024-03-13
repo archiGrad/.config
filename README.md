@@ -198,3 +198,48 @@ source ~/.bashrc
 
 
 ```
+
+
+## platofrmIO
+
+on ubuntu i have had the problem that microcontrollers would not connect. 
+de devide would be recognised as a usb devide, but would immediatly disconnect. this caused platformio to throw an error because it could not find the device
+
+when typing in `sudo dmesg | grep ttyUSB` it would return that the microcontroller immedaitly was disconnected.
+```shell
+[ 1501.372532] usb 1-2: ch341-uart converter now attached to ttyUSB0
+[ 1497.039622] ch341-uart ttyUSB0: ch341-uart converter now disconnected from ttyUSB0
+
+```
+what fixed this error was executing: 
+
+```shell
+sudo apt remove brltty
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
