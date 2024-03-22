@@ -6,11 +6,11 @@
 
 
 <div style='display: flex; flex-wrap: wrap;'>
-    <img style='width:19.5%;' src='./media/i3.png' >
-    <img style='width:19.5%;' src='./media/qutebrowser.png' >
-    <img style='width:19.5%;' src='./media/tmux.png' >
-    <img style='width:19.5%;' src='./media/vim.png' >
-    <img style='width:19.5%;' src='./media/zsh.png' >
+    <img style='width:20%;' src='./media/i3.png' >
+    <img style='width:20%;' src='./media/qutebrowser.png' >
+    <img style='width:20%;' src='./media/tmux.png' >
+    <img style='width:20%;' src='./media/vim.png' >
+    <img style='width:20%;' src='./media/zsh.png' >
 </div>
 
 
