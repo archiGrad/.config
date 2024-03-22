@@ -77,34 +77,89 @@ A highly configurable text editor known for its efficiency and extensive plugin 
 <details open>
 <summary>vim config file</summary>
 
-	**Location:** ~/.config/.vimrc
+	
+" backspace didint worjm nymore so thuis is a fix 
+set backspace=indent,eol,start
 
-	**Changes:** Tabs, color.
+" Turn syntax highlighting on.
+syntax on
 
-	**Most Used Shortcuts:**
-	- All shortcuts
+highlight StatusLine ctermfg=Black ctermbg=White
+set statusline=%F%h%m%r%=%-14.(%l,%c%V%)\ %P
 
-	- viw -> select inner word
-	- "0y -> yank to 0'th registery
-	- "0p -> paste from 0'th registery
+" Disable compatibility with vi which can cause unexpected issues.
+set nocompatible
 
-	some goes for viw -> "4y -> "4p  --> yank something to refister 4, and then paste it.
+" Enable type file detection. Vim will be able to try to detect the type of file in use.
+filetype on
+
+" Enable plugins and load plugin for the detected file type.
+"filetype plugin on
+
+" Load an indent file for the detected file type.
+"filetype indent on
+
+" Turn syntax highlighting on.
+syntax on
+
+" Add numbers to each line on the left-hand side.
+set number
+set relativenumber
+
+" add defualt colorscheme
+color default
 
 
-	- even better! we can copy to the clipboard registery by doing
-	- this means we can quickly interact with other programs without doing ctrl c and ctrl v
-	- make a selection -> v
-	- "+y to copy to clipboard registery
-	- "+p paste from clipboard registery 
+" Customize Vim split window divider
+ set fillchars+=vert:\│
+ highlight VertSplit cterm=NONE
 
-	- select, delete somehting betwwen `""`, `{}`, `()` etc
-	- i"y -> yank whats "inner "" "
-	- i{y -> yank whats inner "{  }"
 
-	- ci" -> change/delete everyting innner quotes
 
-	- a"y -> yank outer ""
+" Color scheme for the status line
+highlight statusLine   cterm=NONE ctermfg=darkGrey ctermbg=black
+highlight StatusLineNC cterm=NONE ctermfg=black ctermbg=black
 
+
+" Do not wrap lines. Allow long lines to extend as far as the line goes.
+set nowrap
+
+"
+" Set the width of the text to 80 characters.
+
+" set textwidth=80
+
+
+" While searching though a file incrementally highlight matching characters as you type.
+set incsearch
+
+" Ignore capital letters during search.
+set ignorecase
+
+" Override the ignorecase option if searching for capital letters.
+" This will allow you to search specifically for capital letters.
+set smartcase
+
+" Show partial command you type in the last line of the screen.
+set showcmd
+
+" Show the mode you are on the last line.
+set showmode
+
+" Show matching words during a search.
+set showmatch
+
+" Use highlighting when doing a search.
+" set hlsearch
+
+" Set the commands to save in history default number is 20.
+set history=1000
+
+" Enable auto completion menu after pressing TAB.
+set wildmenu
+
+" Make wildmenu behave like similar to Bash completion.
+" set wildmode=list:longest
 
 
 </details>
@@ -178,6 +233,26 @@ A powerful shell with advanced scripting capabilities, often used as an alternat
 
 </details>
 
+
+## useful terminal tools
+
+```shell 
+
+feh - foog image viewer
+mupdf - pdf viewer
+
+```
+
+make sure that if you tm -rf "somefile" that is is not deleted form system, but goes to trash bin in ~/.local/share/Trash/file
+
+```shell
+sudo apt-get install trash-cli
+nano ~/.bashrc
+alias rm='trash-put'
+source ~/.bashrc
+
+
+```
 
 ## terminal settings
 

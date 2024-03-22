@@ -15,10 +15,10 @@ set nocompatible
 filetype on
 
 " Enable plugins and load plugin for the detected file type.
-filetype plugin on
+"filetype plugin on
 
 " Load an indent file for the detected file type.
-filetype indent on
+"filetype indent on
 
 " Turn syntax highlighting on.
 syntax on
@@ -45,6 +45,12 @@ highlight StatusLineNC cterm=NONE ctermfg=black ctermbg=black
 " Do not wrap lines. Allow long lines to extend as far as the line goes.
 set nowrap
 
+"
+" Set the width of the text to 80 characters.
+
+" set textwidth=80
+
+
 " While searching though a file incrementally highlight matching characters as you type.
 set incsearch
 
@@ -65,7 +71,7 @@ set showmode
 set showmatch
 
 " Use highlighting when doing a search.
-set hlsearch
+" set hlsearch
 
 " Set the commands to save in history default number is 20.
 set history=1000
