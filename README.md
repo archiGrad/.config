@@ -5,15 +5,6 @@
 # archigrad configuration files.
 
 
-<div style='display: flex; flex-wrap: wrap;'>
-    <img style='width:19%;' src='./media/i3.png' >
-    <img style='width:19%;' src='./media/qutebrowser.png' >
-    <img style='width:19%;' src='./media/tmux.png' >
-    <img style='width:19%;' src='./media/vim.png' >
-    <img style='width:19%;' src='./media/zsh.png' >
-</div>
-
-
 These files have been succesfully tested on Ubuntu 22.04.2 LTS x86_64 machine.
 
 ## i3
@@ -304,8 +295,19 @@ sudo apt remove brltty
 
 
 
+## make beuatifulkk pdf's with pdflatex and mupdf
 
 
+![screenshot](./pdflatex_mupdf.png)
+
+
+to create a nice latex workenvironment, you can use the following alias in your .bashrc file.
+it will compile the latex file and open it in mupdf but everytime you save the file, the pdf will be updated.
+
+```shell
+ alias compilepdf='pdflatex assignment.tex && pkill -HUP mupdf'
+
+```
 
 
 
