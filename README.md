@@ -4,6 +4,16 @@
 
 # archigrad configuration files.
 
+
+<div style='display: flex; flex-wrap: wrap;'>
+    <img style='width:19.5%;' src='./media/i3.png' >
+    <img style='width:19.5%;' src='./media/qutebrowser.png' >
+    <img style='width:19.5%;' src='./media/tmux.png' >
+    <img style='width:19.5%;' src='./media/vim.png' >
+    <img style='width:19.5%;' src='./media/zsh.png' >
+</div>
+
+
 These files have been succesfully tested on Ubuntu 22.04.2 LTS x86_64 machine.
 
 ## i3
@@ -240,7 +250,7 @@ A powerful shell with advanced scripting capabilities, often used as an alternat
 
 feh - foog image viewer
 mupdf - pdf viewer
-
+grip - markdown viewer
 ```
 
 make sure that if you tm -rf "somefile" that is is not deleted form system, but goes to trash bin in ~/.local/share/Trash/file
