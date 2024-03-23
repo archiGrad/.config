@@ -295,17 +295,17 @@ sudo apt remove brltty
 
 
 
-## make beuatifulkk pdf's with pdflatex and mupdf
+## make pdf's with pdflatex and mupdf
 
 
 ![screenshot](./pdflatex_mupdf.png)
 
 
-to create a nice latex workenvironment, you can use the following alias in your .bashrc file.
+To create a nice latex workenvironment, you can use the following alias in your .bashrc file.
 it will compile the latex file and open it in mupdf but everytime you save the file, the pdf will be updated.
 
 ```shell
- alias compilepdf='pdflatex assignment.tex && pkill -HUP mupdf'
+ alias compile='pdflatex assignment.tex && pkill -HUP mupdf'
 
 ```
 
