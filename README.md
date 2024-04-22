@@ -243,6 +243,7 @@ feh - foog image viewer
 mupdf - pdf viewer
 grip - markdown viewer
 guvcview - really good/smooth/borderles webcam viewer
+mpv - music player
 ```
 
 make sure that if you tm -rf "somefile" that is is not deleted form system, but goes to trash bin in ~/.local/share/Trash/file
