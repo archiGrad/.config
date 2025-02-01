@@ -312,7 +312,9 @@ it will compile the latex file and open it in mupdf but everytime you save the f
 
 ```
 
-
+```shell
+use pavucontrol to control bluetooth activity
+```
 
 
 
