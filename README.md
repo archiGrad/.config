@@ -318,11 +318,44 @@ use pavucontrol to control bluetooth activity
 
 
 
+## tranlate with shell and googpleapi.
 
+```shell
+#!/bin/bash
 
+# Function to display usage
+usage() {
+    echo "Usage: translate <text> <target_language>"
+    echo "Example: translate 'hello' es"
+    exit 1
+}
 
+# Check if required arguments are provided
+if [ $# -lt 2 ]; then
+    usage
+fi
 
+# Get input parameters
+TEXT="$1"
+TARGET_LANG="$2"
 
+# URL encode the text
+encoded_text=$(echo "$TEXT" | perl -MURI::Escape -ne 'print uri_escape($_)')
+
+# Make the API request and get just the translated word
+curl -s "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${TARGET_LANG}&dt=t&q=${encoded_text}" | awk -F'"' '{print $2; exit}'
+
+```
+and .zsh alias
+
+```shell
+echo 'alias translate="~/translate.sh"' >> ~/.zshrc    # for zsh
+```
+use case
+
+```shell
+translate vergoeding en
+```
 
 
 
